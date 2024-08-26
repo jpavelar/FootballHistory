@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    height: 60px;
+}
+
+#matches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+.match {
+    width: 300px;
+    justify-content: space-around;
+    margin: 10px; 
+    background-color: #f7f7f7; 
+    padding: 2px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+}
+.match-details {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.logoteam{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+nav li {
+    padding: 2px;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1px;
+    
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
