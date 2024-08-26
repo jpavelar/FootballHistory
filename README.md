@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 Esta aplicação web básica foi desenvolvida utilizando HTML, CSS e TypeScript. O objetivo é demonstrar a separação de responsabilidades, boas práticas de codificação e manipulação dinâmica de dados.
-Utilizamos o Football Highlights API para consumir dados de partidas de futebol.
+Utilizamos o Football Highlights API para consumir dados de partidas de futebol, e exibi-los.
 
 ## Como Executar a Aplicação
 1. Clone este repositório: `git clone <URL-do-repositório>`
